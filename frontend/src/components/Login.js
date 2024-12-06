@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import './Login.css';
+import './login.css';
 const app_name = 'ganttify-5b581a9c8167';
 
 

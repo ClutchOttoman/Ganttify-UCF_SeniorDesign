@@ -13,7 +13,7 @@ const ViewChartPage = () => {
       <NavBar layout={3} />
       <div className="container-fluid px-0 mx-0 py-0 mt-5 mb-0">
         <GanttChart projectId={id} setUserRole={setUserRole} userRole={userRole} />
-        {['founder', 'editor'].includes(userRole) && <AddTaskButton projectId={id} />} 
+        {['founder', 'editor'].includes(userRole) && <AddTaskButton projectId={id} />}
       </div>
     </div>
   );

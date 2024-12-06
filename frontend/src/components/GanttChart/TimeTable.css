@@ -1,14 +1,14 @@
 #gantt-grid-container__time {
   display: grid;
-  overflow-x: auto;
+  overflow-x: scroll;
   outline: 0.5px solid var(--color-outline);
   padding-bottom: 1px;
+  scrollbar-color: #888 #FDDC87;
+  scrollbar-width: thin;
 }
 
-#gantt-grid-container__time::-webkit-scrollbar {
-  width: 0px;
-  background: transparent;
-}
+/* #gantt-grid-container__time::-webkit-scrollbar {
+} */
 
 .task-duration {
   position: absolute;
